@@ -43,22 +43,22 @@ if [ -f /tmp/main.zip ]; then
     rm /tmp/main.zip
 fi
 
-mv -f /tmp/PPPwn_ow-main/pppoe/ppp/pap-secrets /etc/ppp
-mv -f /tmp/PPPwn_ow-main/pppoe/ppp/chap-secrets /etc/ppp
-mv -f /tmp/PPPwn_ow-main/pppoe/ppp/pppoe-server-options /etc/ppp
-mv -f /tmp/PPPwn_ow-main/pppoe/init.d/pppoe-server /etc/init.d
-mv -f /tmp/PPPwn_ow-main/pppoe/config/pppoe /etc/config
-mv -f /tmp/PPPwn_ow-main/www/pppwn /www
-mv -f /tmp/PPPwn_ow-main/www/pppwn.html /www
-mv -f /tmp/PPPwn_ow-main/www/cgi-bin/pw.cgi /www/cgi-bin
-mv -f /tmp/PPPwn_ow-main/version /root/
-mv -f /tmp/PPPwn_ow-main/pw.conf /root/
-mv -f /tmp/PPPwn_ow-main/stage1 /root/
-mv -f /tmp/PPPwn_ow-main/stage2 /root/
-mv -f /tmp/PPPwn_ow-main/run.sh /root/
+mv -f /tmp/PPPwn_ow_M-main/pppoe/ppp/pap-secrets /etc/ppp
+mv -f /tmp/PPPwn_ow_M-main/pppoe/ppp/chap-secrets /etc/ppp
+mv -f /tmp/PPPwn_ow_M-main/pppoe/ppp/pppoe-server-options /etc/ppp
+mv -f /tmp/PPPwn_ow_M-main/pppoe/init.d/pppoe-server /etc/init.d
+mv -f /tmp/PPPwn_ow_M-main/pppoe/config/pppoe /etc/config
+mv -f /tmp/PPPwn_ow_M-main/www/pppwn /www
+mv -f /tmp/PPPwn_ow_M-main/www/pppwn.html /www
+mv -f /tmp/PPPwn_ow_M-main/www/cgi-bin/pw.cgi /www/cgi-bin
+mv -f /tmp/PPPwn_ow_M-main/version /root/
+mv -f /tmp/PPPwn_ow_M-main/pw.conf /root/
+mv -f /tmp/PPPwn_ow_M-main/stage1 /root/
+mv -f /tmp/PPPwn_ow_M-main/stage2 /root/
+mv -f /tmp/PPPwn_ow_M-main/run.sh /root/
 
-if [ -d /tmp/PPPwn_ow-main ]; then
-    rm -r /tmp/PPPwn_ow-main
+if [ -d /tmp/PPPwn_ow_M-main ]; then
+    rm -r /tmp/PPPwn_ow_M-main
 fi
 
 chmod +x /root/run.sh
