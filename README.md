@@ -3,7 +3,7 @@ This activation method works for devices with the OpenWrt Linux system as long a
 ## Requirements:
 
 - Supports PS4 GoldHen FW 9.00, 9.50, 9.51, 9.60, 10.00, 10.01 and 11.00
-- Supports PS4Hen FW 9.03, 10.70
+- Supports PS4Hen FW 9.03,10.50, 10.70
 - Router/Modem with LAN connection and OpenWrt.
 - PuTTY installed on your PC to access the terminal.
 - Verify `PPPwn_cpp` for OpenWrt Linux distributions by using the command `uname -m`. It is recommended to install the MIPSEL build.
