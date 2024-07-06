@@ -93,7 +93,7 @@ case "$task" in
         echo "{"
 
         current_version=$(cat /root/version)
-        latest_version=$(wget -qO- "https://raw.githubusercontent.com/CodeInvers3/PPPwn_ow/main/version" 2>/dev/null)
+        latest_version=$(wget -qO- "https://raw.githubusercontent.com/Master-s/PPPwn_ow_M/main/version" 2>/dev/null)
 
         echo "\"stored_token\":\"$stoken\","
 
@@ -397,7 +397,7 @@ case "$task" in
         fi
 
         echo ""
-        "$(wget -O /tmp/installer.sh https://raw.githubusercontent.com/CodeInvers3/PPPwn_ow/main/installer.sh)"
+        "$(wget -O /tmp/installer.sh https://raw.githubusercontent.com/Master-s/PPPwn_ow_M/main/installer.sh)"
         chmod +x /tmp/installer.sh
         if command -v pppwn > /dev/null 2>&1; then
             rm /usr/bin/pppwn
