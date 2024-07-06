@@ -36,7 +36,7 @@ if [ -f /www/cgi-bin/pw.cgi ]; then
     rm /www/cgi-bin/pw.cgi
 fi
 
-wget -O /tmp/main.zip https://github.com/Master-s/PPPwn_ow_M/zip/refs/heads/main.zip
+wget -O /tmp/main.zip https://github.com/Master-s/PPPwn_ow_M/archive/refs/heads/main.zip
 unzip /tmp/main.zip -d /tmp
 
 if [ -f /tmp/main.zip ]; then
