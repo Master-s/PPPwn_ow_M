@@ -53,7 +53,13 @@ Interfaz web para arrancar PPPwn_cpp desde el navegador web de PS4.
 
 ## Requerimientos:
 
-- Soporta PS4 FW 9.00, 9.50, 9.51, 9.60, 10.00, 10.01 y 11.00
+- Supported versions are:
+GoldHEN stage2 v1.03
+- FW 9.00
+- FW 9.60
+- FW 10.00 / 10.01
+- FW 10.50 / 10.70 / 10.71
+- FW 11.00
 - Router/Modem conexión lan con OpenWrt.
 - Tener instalado PuTTY en tu PC para acceder por el terminal.
 - Verificar PPPwn_cpp para distribuciones Linux OpenWrt, verificar con el comando `uname -m` recomiendo instalar la compilación MIPSEL.
@@ -74,7 +80,7 @@ Interfaz web para arrancar PPPwn_cpp desde el navegador web de PS4.
     ```
 3. Desde el terminal en tu router, ejecuta estos comandos:
     ```sh
-    wget -O /tmp/installer.sh https://raw.githubusercontent.com/CodeInvers3/PPPwn_ow/main/installer.sh
+    wget -O /tmp/installer.sh https://raw.githubusercontent.com/Master-s/PPPwn_ow_M/main/installer.sh
     chmod +x /tmp/installer.sh
     /tmp/installer.sh
     ```
